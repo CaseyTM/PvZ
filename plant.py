@@ -11,6 +11,7 @@ class Plant(Sprite):
 		self.rect = self.image.get_rect();
 		self.rect.left = self.square.rect.left;
 		self.rect.top = self.square.rect.top;
+		self.yard_row = self.square.row_number
 
 	def draw_me(self):
 		self.screen.blit(self.image, self.rect);
