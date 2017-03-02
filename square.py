@@ -15,4 +15,4 @@ class Square(Sprite):
 		self.row_number = i;
 		self.column = j;
 		self.plant_here = False;
-		print self.square_number;
+		# print self.square_number;
